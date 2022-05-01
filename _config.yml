@@ -1,1 +1,3 @@
-theme: jekyll-theme-hacker 
+lsi: false
+safe: true
+theme: default

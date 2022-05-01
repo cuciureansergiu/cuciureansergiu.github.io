@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Implement Sticky Header and Footer with CSS</title>
+<style>
+    /* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .fixed-header{
+        width: 100%;
+        position: fixed;        
+        background: rgb(22, 78, 55);
+        /* background-color: transparent; */
+        padding: 10px 0;
+        color: #fff;
+        opacity: 50%;
+    }
+    .fixed-header{
+        top: 1%;
+    }
+    .fixed-header-container{
+        width: 60%;
+	      float: left;
+        margin: 0 auto; /* Center the DIV horizontally */
+        text-align: center;
+        padding: 14px 26px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    nav hbut{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+    <div class="fixed-header">
+        <div class="fixed-header-container">
+            <nav>
+                <hbut href="#">Home</hbut>
+                <hbut href="#">About</hbut>
+                <hbut href="#">Contact</hbut>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
